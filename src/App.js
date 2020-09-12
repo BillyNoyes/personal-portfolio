@@ -48,19 +48,35 @@ function App() {
 
         <div className={`app__overlay ${darkMode ? "app__overlayDark" : ""}`}>
           <h2>
-            <a href="mailto:wbillypn@gmail.com" target="_blank">
+            <a
+              href="mailto:wbillypn@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               wbillypn@gmail.com
             </a>{" "}
             ───{" "}
-            <a href="http://instagram.com/billy.noyes" target="_blank">
+            <a
+              href="http://instagram.com/billy.noyes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Instagram
             </a>{" "}
             ───{" "}
-            <a href="https://github.com/BillyNoyes" target="_blank">
+            <a
+              href="https://github.com/BillyNoyes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>{" "}
             ───{" "}
-            <a href="https://www.linkedin.com/in/billynoyes/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/billynoyes/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LinkedIn
             </a>
           </h2>

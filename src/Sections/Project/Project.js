@@ -16,12 +16,17 @@ function Project({
           <h1>{projectName}</h1>
           <h5>{projectStack}</h5>
           <p>{projectDescription}</p>
-          <Button target="_blank" href={projectLink} variant="outlined">
+          <Button
+            target="_blank"
+            href={projectLink}
+            variant="outlined"
+            rel="noopener noreferrer"
+          >
             Project Link
           </Button>
         </div>
         <div className="project__right">
-          <a target="_blank" href={projectLink}>
+          <a target="_blank" href={projectLink} rel="noopener noreferrer">
             <img src={projectScreenshot} alt={projectName} />
           </a>
         </div>
